@@ -1,0 +1,13 @@
+// GITL test program - arithmetic expressions
+// arithmetic.gitl
+int main int p
+int c
+int b
+b = 3
+c = b + 5 * 8 + 2 * 2
+call print c res
+c = b * 5 + 8 * 2 + 1
+call print c res
+c = b * ( 5 + 8 ) + ( 2 + 1 )
+call print c res
+end

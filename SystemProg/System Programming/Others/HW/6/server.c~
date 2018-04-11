@@ -1,0 +1,188 @@
+
+ /* server.c file 
+  * Mustafa Çoker
+  * 08104402
+  * Chatting project
+  * HW # 6
+  * */
+ 
+ #include <stdio.h>
+ #include <fcntl.h>
+ #include <sys/stat.h>
+ #include <unistd.h>
+ #include <signal.h>
+ #include <stdlib.h>
+ #include <sys/shm.h>
+ #include <pthread.h>
+ 
+ 
+ #define PERM (S_IRUSR | S_IWUSR)
+ #define MAX_CHAT 256
+ 
+ // global variables 
+ static volatile sig_atomic_t istemciler[ 50 ];
+ static volatile sig_atomic_t istemciSayisi = 0;
+ char* messageArray[ 50 ];
+ 
+ // function prototypes
+ void cleanTempFile();
+ void *createSharedMem( void *parameter );
+ 
+ 
+ static void registerClient( int signo )
+ {
+	pid_t clientPid;
+	int fildes = open("registerFile", O_RDWR );
+	
+	if( fildes == -1 )
+	{
+		perror("Failed to opening the register file\n");
+		exit( 1 );
+	}
+	
+	read(fildes, &clientPid, sizeof(pid_t));
+	
+	istemciler[ istemciSayisi ] = clientPid;
+	
+	/*** create a shared mem for message with different thread ***/
+	pthread_t tid;
+	
+	pthread_create(&tid, NULL, createSharedMem, &clientPid );
+	pthread_join(tid, NULL );
+	
+	/*** end creating shared mem ***/
+	
+	++istemciSayisi;
+	
+	fprintf(stderr, "%ld registered yet\n", (long)clientPid );
+	fclose( fopen( "registerFile", "w" ));
+	
+	return;
+ }/************* end of registerClient function ***********************/
+ 
+ static void terminator( int signo )
+ {
+	int i=0;
+	for(i=0; i<istemciSayisi; i++ )
+	{
+		kill( istemciler[ i ], SIGUSR1 );
+		// free( messageArray[ i ] );
+	}
+	
+	printf("terminated all clients\n");
+	exit( 1 );	 
+ }/***************** end of terminator function ***********************/
+ 
+ static void unRegisterClient( int signo )
+ {
+	int fildes = open("unRegisterFile", O_RDWR );
+	
+	pid_t targetPid;
+	read(fildes, &targetPid, sizeof( pid_t ) );
+	
+	int i=0;
+	int targetFound = 0;
+	
+	for(i=0; i<istemciSayisi; i++ )
+	{
+		if( targetFound )
+		{
+			istemciler[ i-1 ] = istemciler[ i ];
+			// messageArray[ i-1 ] = messageArray[ i ];
+		}
+		else
+		{
+			if( istemciler[i] == targetPid )
+			{
+				targetFound = 1;
+				// free( messageArray[ i ] );
+			}	
+		}
+	}
+	
+	--istemciSayisi;
+	
+	fprintf(stderr, "%ld unRegistered yet\n", (long)targetPid);
+	
+	return;
+ }/************ end of unRegisterClient function **********************/
+ 
+ int main()
+ {
+	
+	fclose( fopen("registerFile", "w") );
+	fclose( fopen( "sunucuPidFile", "w"));
+	
+	int fildes = open("sunucuPidFile", O_RDWR );
+	pid_t mypid = getpid();
+	
+	write(fildes, &mypid, sizeof( pid_t ));
+	
+	/*** SIGNAL HANDLERS ***/
+	
+	struct sigaction act1;
+	
+	act1.sa_handler = registerClient;            
+    act1.sa_flags = 0;
+    if ((sigemptyset(&act1.sa_mask) == -1) ||
+          (sigaction(SIGUSR1, &act1, NULL) == -1)) {
+        perror("Failed to set SIGUSER1 handler");
+        return 1;
+    }
+    
+    struct sigaction act2;
+    
+    act2.sa_handler = terminator; // terminate the server
+    act2.sa_flags = 0;
+    if( (sigemptyset(&act2.sa_mask) == -1 ) ||
+			(sigaction(SIGINT, &act2, NULL) == -1) )
+    {
+		perror("Failed to set SIGINT handler\n");
+		return 1;
+	}
+    
+    struct sigaction act3;
+    
+    act3.sa_handler = unRegisterClient;
+    act3.sa_flags = 0;
+    if( (sigemptyset(&act3.sa_mask) == -1 ) ||
+			(sigaction(SIGUSR2, &act3, NULL) == -1) )
+    {
+		perror("Failed to set unRegister signal handler\n");
+		return 1;
+	}
+    
+	/*** END OF SIGNAL HANDLERS ***/
+	
+	
+	
+	/*** CHATTING ***/
+	char str[256];
+	
+	while( 1 )
+	{
+		gets( str );
+		messageArray[0] = str;
+		fprintf(stderr, "%s\n", messageArray[0] );
+	}
+	/*** END OF CHATTINGS ***/
+	
+	
+	return 0;
+ } // end of main
+ 
+ void cleanTempFile()
+ {
+	remove( "registerFile" );
+	remove( "sunucuPidFile" );
+	remove( "sharedMemDesFile" );
+	 
+	return; 
+ }/*************** end of cleanTempFile function  *********************/
+ 
+ void *createSharedMem( void *parameter )
+ {
+	pid_t newClientPid = parameter;
+	
+	return NULL;
+ }/*************** end of createSharedMem function  *******************/

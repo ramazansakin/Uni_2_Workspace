@@ -1,0 +1,51 @@
+/* 
+ * File:   main.cpp
+ * Author: ramazan
+ *
+ * Created on November 10, 2013, 11:42 PM
+ */
+
+#include <cstdlib>      //  exit())
+#include<iostream>
+#include "StarSystem.h"
+
+using namespace std;
+
+#define SENTINAL -1
+const int MAX_SYSTEMS = 20;
+
+int StarSystem::numOfSS = 0;
+
+
+int getAchoice(void);
+int doChoice( int choice, StarSystem SSystems[] );
+int findTheSS( StarSystem systems[], string SSname );
+int findThePlanet( StarSystem &theSystem, string pName );
+void showTheSystems( StarSystem Systems[] );
+
+
+int main(  ) {
+    int status;
+    StarSystem systems[MAX_SYSTEMS];
+    cout << "Welcome to Star System Program" <<endl;
+    
+    while( status != SENTINAL ){
+        int selection = getAchoice();
+        doChoice( selection, systems );
+        
+        cout << "-Please enter -1 to exit and show the Star Systems, or 1 to go on: "<<endl;
+        cin >> status;
+        if( status != 1 && status != -1 ){
+            cout << "Please enter valid choices" <<endl;
+            exit(1);        
+        }
+    }
+    
+    //  Test the overloading functions
+
+    showTheSystems(systems);
+    
+    return 0;
+}
+
+

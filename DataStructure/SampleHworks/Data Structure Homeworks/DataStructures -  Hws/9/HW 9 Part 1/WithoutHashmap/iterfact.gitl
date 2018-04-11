@@ -1,0 +1,30 @@
+// GITL program for iterative factorial calculation
+// iterfact.GITL
+int main int a
+    // define input var
+    int input
+
+    // Scan the input from user
+    // we assume user enters a positive int.
+    call scan 0 input
+
+    // result will hold the factorial value
+    int result
+    result = 1
+
+    // Start of the loop
+    label lab1
+
+    result = result * input
+    input = input - 1
+
+    // check to see if we reached the end
+    if input lab1
+
+    // The factorial is calculated, print result
+    int dummy
+    call print result dummy
+
+    // return no errors
+    return 0
+end

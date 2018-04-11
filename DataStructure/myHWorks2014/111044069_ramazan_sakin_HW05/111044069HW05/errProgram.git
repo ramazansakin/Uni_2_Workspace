@@ -1,0 +1,18 @@
+// Ramazan Sakin -- 111044069
+		// GIT
+
+var val
+var t
+
+input t
+// calculate val
+val = t * 10 / 7 - log ( 57.1 + 6.32 ) * exp ( 33.3 / 12.4 ) - floor 4.345
+
+print val
+
+// Redecleration error !!!
+var val
+
+val = sin ( cos ( log ( 12.34 * 17 ) / ceil ( 12.45 + 34.24123 ) * 2 ) + 3 ) / 2 + 12.34
+
+print val 

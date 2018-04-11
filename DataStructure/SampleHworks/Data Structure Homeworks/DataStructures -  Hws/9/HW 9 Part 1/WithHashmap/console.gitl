@@ -1,0 +1,8 @@
+// GITL test program - read console
+// readconsole.gitl
+int main int p4
+int aa
+call scan 0 aa
+call print aa 0
+return aa
+end

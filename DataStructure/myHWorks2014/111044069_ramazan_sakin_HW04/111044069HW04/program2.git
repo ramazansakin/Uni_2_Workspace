@@ -1,0 +1,17 @@
+var a
+a = sin 45 * 2 + 5 - 3
+print a
+var b
+b = log 5 - exp 15 * 3 / ( 2 + 8 )
+print b
+var c
+input c
+c = 5 ^ input a
+print c
+
+var fd
+input fd
+c = fd * 7 * ( 10.0 + 3.8 )
+
+// print the value three times and also more possible
+print print print c

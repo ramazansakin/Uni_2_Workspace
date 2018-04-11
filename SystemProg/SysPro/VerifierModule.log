@@ -1,0 +1,1373 @@
+Verifier was started to work at Sun May 25 12:32:24 2014
+
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+-nan     -nan     
+-nan     -nan     
+###--------------------------------------------------###
+################## uninvertible  A Matrix   #######################
+6.000    6.000    
+7.000    7.000    
+###################################################################
+The Matrix is not invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+-nan     -nan     
+-nan     -nan     
+###--------------------------------------------------###
+################## uninvertible  A Matrix   #######################
+13.000   8.000    
+13.000   8.000    
+###################################################################
+The Matrix is not invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+-nan     -nan     
+-nan     -nan     
+###--------------------------------------------------###
+################## uninvertible  A Matrix   #######################
+3.000    3.000    
+4.000    4.000    
+###################################################################
+The Matrix is not invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+-nan     -nan     
+-nan     -nan     
+###--------------------------------------------------###
+################## uninvertible  A Matrix   #######################
+4.000    4.000    
+5.000    5.000    
+###################################################################
+The Matrix is not invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    -0.000   
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+0.000    1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+###---- Result of Multiplication A and A' -----------###
+1.000    0.000    
+-0.000   1.000    
+###--------------------------------------------------###
+The Matrix is invertible!!
+Ctrl-C has come...
+Number of all marices is 270
+Number of invertible marices is 266
+Number of uninvertible matrices is 4
+Elapsed time  :  1401010423 seconds 991133811 nanosecons

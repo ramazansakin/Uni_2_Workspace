@@ -1,0 +1,110 @@
+***ScrnShot1***
+k a f v s f a k |8
+p p p p p p p p |7
+. . . . . . . . |6
+. . . . . . . . |5
+. . . . . . . . |4
+. . . . . . . . |3
+P P P P P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move  1
+a2-a4
+8pawn
+
+k a f v s f a k |8
+p p p p p p p p |7
+. . . . . . . . |6
+. . . . . . . . |5
+P . . . . . . . |4
+. . . . . . . . |3
+. P P P P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move 2 Computer
+14pawn
+k a f v s f a k |8
+p p p p p p . p |7
+. . . . . . . . |6
+. . . . . . p . |5
+P . . . . . . . |4
+. . . . . . . . |3
+. P P P P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move  3
+
+***scrnShot2***
+k a f v s f a k |8
+p p p p p p . p |7
+. . . . . . . . |6
+. . . . . . p . |5
+P . . P . . . . |4
+. . . . . . . . |3
+. P P . P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move 4 Computer
+15pawn
+k a f v s f a k |8
+p p p p p p . . |7
+. . . . . . . . |6
+. . . . . . p p |5
+P . . P . . . . |4
+. . . . . . . . |3
+. P P . P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move  5
+
+
+
+***scrnShot3***
+move 6 Computer
+1knight
+k . f v s f a k |8
+p p p a p p . . |7
+. . . . . . . . |6
+. . . . . . p p |5
+P . . P . . . . |4
+K . . . . . . . |3
+. P P . P P P P |2
+. A F V S F A K |1
+---------------
+A B C D E F G H
+
+move  7
+
+
+
+***scrnShot4***
+move 6 Computer
+1knight
+k . f v s f a k |8
+p p p a p p . . |7
+. . . . . . . . |6
+. . . . . . p p |5
+P . . P . . . . |4
+K . . . . . . . |3
+. P P . P P P P |2
+. A F V S F A K |1
+---------------
+A B C D E F G H
+
+move  7
+
+
+
+***scrnShot5***
+
+

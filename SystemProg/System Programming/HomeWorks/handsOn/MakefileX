@@ -1,0 +1,19 @@
+#########################################################################
+#  BIL 244 System Programming LECTURE 01 Hands on the System            #
+#  partly from the examples of "Advanced Linux Programming" Book        #
+#  EZ: is my initials 2012                                              #
+#  and  easy to follow Makefile example                                 #  
+# for debuging compile with -g switch (type make CFLAGS=-g)             #
+#########################################################################
+
+main:	main.o operations.o
+	g++ $(CFLAGS) -o main main.o operations.o
+
+main.o:	main.c operations.hpp
+	gcc $(CFLAGS) -c main.c
+
+operations.o:	operations.cpp operations.hpp
+	g++ $(CFLAGS) -c operations.cpp
+
+clean:
+	rm -f *.o main

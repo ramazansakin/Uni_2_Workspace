@@ -1,0 +1,13 @@
+// GITL test program - keywords
+// keywords.gitl
+int main int p
+int c
+int a
+a = 3 + 2 * 5
+// This is a comment
+c = a + 2
+call print c result
+if c thelabel
+label thelabel
+return a
+end

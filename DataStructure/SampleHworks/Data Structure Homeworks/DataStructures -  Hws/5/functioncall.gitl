@@ -1,0 +1,39 @@
+// GITL test program - function calls
+// functioncall.gitl
+
+int function2 int param
+    int result
+    param = 100 + param
+    return param
+end
+
+int function1 int param
+    int result
+    call print param result
+    call function2 param result
+    call print result result
+    call function3 param result
+    call print result result
+    call function4 param result
+    call print result result
+    return param
+end
+
+int function3 int param
+    int result
+    param = 200 + param
+    return param
+end
+
+int main int arg
+    int c
+    int result
+    c = 4
+    call function1 c result
+end
+
+int function4 int param
+     int result
+     param = 300 + param
+     return param
+end

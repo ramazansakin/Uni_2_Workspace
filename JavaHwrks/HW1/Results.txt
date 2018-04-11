@@ -1,0 +1,156 @@
+Results -- 111044069 -- Ramazan SAKIN
+#####################################################
+Creating a Father and a Mother as Person object.
+Printing with toString methods: 
+The person is  
+Name:     Huseyin
+Surname:  SAKIN
+Birthday: 1968
+Gender:   male
+
+The person is  
+Name:     Saadet
+Surname:  SAKIN
+Birthday: 1970
+Gender:   female
+
+#####################################################
+Creating a Person with default constructor: 
+The person is  
+Name:     Unnamed
+Surname:  Unsurnamed
+Birthday: 0
+Gender:   fe-male
+
+#####################################################
+Creating a Person eith copy-constructor :
+The person is  
+Name:     Huseyin
+Surname:  SAKIN
+Birthday: 1968
+Gender:   male
+
+#####################################################
+Creating some Person as child  and adding them to the family: 
+The person is  
+Name:     Mustafa
+Surname:  SAKIN
+Birthday: 2007
+Gender:   male
+
+The first family is:
+The person is  
+Name:     Huseyin
+Surname:  SAKIN
+Birthday: 1968
+Gender:   male
+
+The person is  
+Name:     Saadet
+Surname:  SAKIN
+Birthday: 1970
+Gender:   female
+
+The children are :
+1.Child :
+The person is  
+Name:     Mustafa
+Surname:  SAKIN
+Birthday: 2007
+Gender:   male
+
+2.Child :
+The person is  
+Name:     Aysegul
+Surname:  SAKIN
+Birthday: 1994
+Gender:   female
+
+3.Child :
+The person is  
+Name:     Huzeyfe
+Surname:  SAKIN
+Birthday: 1993
+Gender:   male
+
+#####################################################
+The second family :
+The person is  
+Name:     Yilmaz
+Surname:  EDIS
+Birthday: 1985
+Gender:   male
+
+The person is  
+Name:     Sümeyye
+Surname:  EDIS
+Birthday: 1987
+Gender:   female
+
+1.Child is:
+The person is  
+Name:     Seyfullah
+Surname:  EDIS
+Birthday: 2010
+Gender:   male
+
+2.Child is:
+The person is  
+Name:     Hatice
+Surname:  EDIS
+Birthday: 2011
+Gender:   EDIS
+
+#####################################################
+Testing equals function for comparing two families: 
+Test whether Family1 and Family2 is equal:
+The families are not equal with each other.
+
+#####################################################
+Creating a new family with copy-constructor and 
+test them whether are equal or not: 
+Family3 is: ( created with copy-const )
+The person is  
+Name:     Huseyin
+Surname:  SAKIN
+Birthday: 1968
+Gender:   male
+
+The person is  
+Name:     Saadet
+Surname:  SAKIN
+Birthday: 1970
+Gender:   female
+
+1.Child is:
+The person is  
+Name:     Mustafa
+Surname:  SAKIN
+Birthday: 2007
+Gender:   male
+
+2.Child is:
+The person is  
+Name:     Aysegul
+Surname:  SAKIN
+Birthday: 1994
+Gender:   female
+
+3.Child is:
+The person is  
+Name:     Huzeyfe
+Surname:  SAKIN
+Birthday: 1993
+Gender:   male
+
+And If we test in now:
+The families are equal with each other.
+#####################################################
+Creating a new Family and search it at Families array:
+
+#####################################################
+Number of the families is 4
+#####################################################
+
+The families has not relation with one of Family in Families
+#####################################################

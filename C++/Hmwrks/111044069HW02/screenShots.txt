@@ -1,0 +1,304 @@
+***Screenshot1***
+
+ramazan@ramazan-300E4Z-300E5Z-300E7Z:~/Desktop$ g++ -c 111044069HW02.cpp
+ramazan@ramazan-300E4Z-300E5Z-300E7Z:~/Desktop$ g++ 111044069HW02.o -o chess
+ramazan@ramazan-300E4Z-300E5Z-300E7Z:~/Desktop$ ./chess
+#########    Chess Game is starting   ###########
+
+
+k a f v s f a k |8
+p p p p p p p p |7
+. . . . . . . . |6
+. . . . . . . . |5
+. . . . . . . . |4
+. . . . . . . . |3
+P P P P P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move 1  
+
+
+
+***Screenshot2***
+move 1  c2-c4
+
+
+k a f v s f a k |8
+p p p p p p p p |7
+. . . . . . . . |6
+. . . . . . . . |5
+. . P . . . . . |4
+. . . . . . . . |3
+P P . P P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move 2  Random
+
+k a f v s f a k |8
+. p p p p p p p |7
+p . . . . . . . |6
+. . . . . . . . |5
+. . P . . . . . |4
+. . . . . . . . |3
+P P . P P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move 3     
+
+
+***Screenshot3***
+k a f v s f a k |8
+p p p p p p . p |7
+. . . . . . p . |6
+. . . . . . . . |5
+P . P . . . . . |4
+. . . . . . . . |3
+. P . P P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move 4  Computer
+
+k a f v s f a k |8
+p p p p . p . p |7
+. . . . p . p . |6
+. . . . . . . . |5
+P . P . . . . . |4
+. . . . . . . . |3
+. P . P P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move 5   
+
+
+
+***Screenshot4***
+k a f v s f a k |8
+p p p p . p . p |7
+. . . . p . p . |6
+. . . . . . . . |5
+P . P . . . . . |4
+K . . . . . . . |3
+. P . P P P P P |2
+. A F V S F A K |1
+---------------
+A B C D E F G H
+
+move 6  Computer
+
+k a f v s f a k |8
+. p p p . p . p |7
+p . . . p . p . |6
+. . . . . . . . |5
+P . P . . . . . |4
+K . . . . . . . |3
+. P . P P P P P |2
+. A F V S F A K |1
+---------------
+A B C D E F G H
+
+move 7  
+
+
+
+
+***Screenshot5***
+k a f v s f a k |8
+. p p p . p . p |7
+p . . . p . p . |6
+. . . . . . . . |5
+P . P . . . . . |4
+K . A . . . . . |3
+. P . P P P P P |2
+. . F V S F A K |1
+---------------
+A B C D E F G H
+
+move 8  Computer
+
+k a f v s f a k |8
+. . p p . p . p |7
+p p . . p . p . |6
+. . . . . . . . |5
+P . P . . . . . |4
+K . A . . . . . |3
+. P . P P P P P |2
+. . F V S F A K |1
+---------------
+A B C D E F G H
+
+move 9  
+
+
+
+
+***Screenshot6***
+k a f v s f a k |8
+. p p p . p . p |7
+p . . . p . p . |6
+. . . . . . . . |5
+P . P . . . . . |4
+K . A . . . . . |3
+. P . P P P P P |2
+. . F V S F A K |1
+---------------
+A B C D E F G H
+
+move 8  Computer
+
+k a f v s f a k |8
+. . p p . p . p |7
+p p . . p . p . |6
+. . . . . . . . |5
+P . P . . . . . |4
+K . A . . . . . |3
+. P . P P P P P |2
+. . F V S F A K |1
+---------------
+A B C D E F G H
+
+move 9  g1-h4
+
+Please enter valid coordinates!!
+move 9  g1-h2
+
+You can not eat your stones!Move again
+move 9  
+
+
+***screenshoot7***
+k a f v s f a k |8
+. . p p . p . p |7
+p p . . p . p . |6
+. . . . . . . . |5
+P . P . . . . . |4
+K . A . . . . A |3
+. P . P P P P P |2
+. . F V S F . K |1
+---------------
+A B C D E F G H
+
+move 10  Computer
+
+k a f v s f a k |8
+. . p p . p . p |7
+p p . . . . p . |6
+. . . . . . . . |5
+P . P . p . . . |4
+K . A . . . . A |3
+. P . P P P P P |2
+. . F V S F . K |1
+---------------
+A B C D E F G H
+
+move 11  
+
+
+
+
+***screenshoot8***
+k a f v s f a k |8
+. . p p . p . p |7
+p p . . p . p . |6
+. . . . . . . . |5
+P . P . . . . . |4
+K . A . . . . A |3
+. P . P P P P P |2
+. . F V S F . K |1
+---------------
+A B C D E F G H
+
+move 10  Computer
+
+k a f v s f a k |8
+. . p p . p . p |7
+p p . . . . p . |6
+. . . . . . . . |5
+P . P . p . . . |4
+K . A . . . . A |3
+. P . P P P P P |2
+. . F V S F . K |1
+---------------
+A B C D E F G H
+
+move 11  d1-d4
+
+Please enter valid coordinates!!
+move 11  c1-f4
+
+You can not pass above your stone!
+move 11  
+
+
+
+
+***screenshoot9***
+k a f v s f a k |8
+. . p p . p . p |7
+p p . . . . p . |6
+. . . . . . . . |5
+P . P . p . . . |4
+K . A . . P . A |3
+. P . P P . P P |2
+. . F V S F . K |1
+---------------
+A B C D E F G H
+
+move 12  Computer
+
+k a f v s f a k |8
+. . p p . p . . |7
+p p . . . . p p |6
+. . . . . . . . |5
+P . P . p . . . |4
+K . A . . P . A |3
+. P . P P . P P |2
+. . F V S F . K |1
+---------------
+A B C D E F G H
+
+move 13  
+
+
+***screenshot9***
+k a f v s f a k |8
+p p p P p p . . |7
+. . . . . . . . |6
+. . . . . . . p |5
+P . . . . . p . |4
+. . . . . . . . |3
+. P . P P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move 8  Computer
+
+k a f v s f a k |8
+. p p P p p . . |7
+. . . . . . . . |6
+p . . . . . . p |5
+P . . . . . p . |4
+. . . . . . . . |3
+. P . P P P P P |2
+K A F V S F A K |1
+---------------
+A B C D E F G H
+
+move 9  d7-e8
+
+
+#############################################################
+                    You won the game!
+#############################################################
+ramazan@ramazan-300E4Z-300E5Z-300E7Z:~/Desktop$ 
+

@@ -1,0 +1,13 @@
+// variables
+var i
+var b
+var myVar
+// operations
+i = 12
+b = log ( i * 12 ) + ceil 23.45 - floor 12.67
+print b
+myVar = sin b * cos ( i * 60 )
+print myVar
+
+var d
+d = cot myVar * ( 2 - log 20 ) / 4 + i ^ 2

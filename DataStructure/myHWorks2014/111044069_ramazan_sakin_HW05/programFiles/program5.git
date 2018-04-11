@@ -1,0 +1,12 @@
+// Ramazan Sakin
+// GYTE  Data Structures
+// HW - 4
+var ram = 2 * log ( 23.6 + sin 45 ) / ( tan 40 * floor 3.686 )
+print ram
+print var a = 4
+
+var b = 3
+// calculate c using b
+print var c = 4 + log ( 2.33 * b - 1.63 ) + 571.63 - 610.40
+
+print 3 ^ 2 + 1.5 + log 210 + exp ( 12.34 / 3.5 )

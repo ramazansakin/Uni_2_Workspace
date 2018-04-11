@@ -1,0 +1,7 @@
+all:
+	gcc -c program1.c
+	gcc -c program2.c
+	gcc -o program1 program1.o
+	gcc -o program2 program2.o
+	rm program2.o
+	rm program1.o

@@ -1,0 +1,21 @@
+111044069 -- Ramazan SAKIN
+         HW07
+
+In Base Class List  <temlate>
+* virtual void addElement( const T& anElement ) = 0;
+* virtual void removeElement( int index )  = 0;
+* virtual bool searchAnElement( const T& theElement )const = 0;
+* virtual void operator+=( const List<T>& aList ) = 0;
+* virtual List<T>& operator=( const List<T>& otherList ) = 0;
+* virtual List<T>& operator%( const List<T>& rightList ) = 0;
+* virtual List<T>& operator+( const List<T>& rightList ) = 0;
+
+  I decleared these functions as virtual, because the derived class es
+are associeted with each other for polimorphism.And I decleare these 
+functions as pure virtual to get abstract  the base class.So, it can 
+not be instantiated, because it is abstract.
+  I decleared some functions like addElement, removeElement, 
+searchElement etc. to modify the List elements.And I created some 
+overloading function for modifying the object's data members.
+And I override the virtual functions in derived classes because not to imlement the virtual functions in derived class makes the derived class abstract. So I implement them all.I created all class as template for code reuse and can be runnable for any type such int, double, character ...
+    

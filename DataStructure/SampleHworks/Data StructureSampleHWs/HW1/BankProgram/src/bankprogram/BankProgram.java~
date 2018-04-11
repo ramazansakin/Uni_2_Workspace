@@ -1,0 +1,62 @@
+/**
+ *--------------------------------
+ * CSE222_HW01_101044044
+  *--------------------------------
+ * @author Samet Sait Talayhan
+ */
+public interface BankProgram {
+
+    /**
+     * Load the data file containing the customers and workers, or establish 
+     * a connection with the data source.
+     *
+     * @param customersTxt The name of the file (data source) with the 
+     * customers information
+     * @param bankWorkersTxt The name of the file (data source) with the bank
+     * workers information
+     */
+    void loadData(String customersTxt, String bankWorkersTxt);
+
+    /**
+     * Look up a account.
+     *
+     * @param accountNumber The number of the account to look up
+     * @return The number or null if accountNumber is not in the program
+     */
+    String lookupAccount(String accountNumber);
+    
+    /**
+     * Look up a account.
+     *
+     * @param workerName The name of the worker to look up
+     * @return The name or null if name is not in the program
+     */
+    String lookupBankWorker(String workerName);
+
+    /**
+     * Add an entry or change an existing entry.
+     *
+     * @param name The name of the person being added or changed
+     * @param number The new number to be assigned
+     * @return The old number or, if a new entry, null
+     */
+    String addOrChangeAccount(String name, String accountNumber,
+                                String accountBalance);
+    
+    String addOrChangeWorker(String workerName);
+
+    /**
+     * Remove an entry from the directory.
+     *
+     * @param name The name of the person to be removed
+     * @return The current number. If not in directory, null is returned
+     */
+    String removeAccount(String name);
+
+    /**
+     * Method to save the directory. pre: The directory has been loaded with
+     * data. post: Contents of directory written back to the file in the form of
+     * name-number pairs on adjacent lines, modified is reset to false.
+     */
+    void save();
+}

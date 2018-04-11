@@ -1,0 +1,4 @@
+all:
+	gcc -c sonunaEkle.c
+	gcc -o sonunaEkle sonunaEkle.o -lpthread
+	rm sonunaEkle.o

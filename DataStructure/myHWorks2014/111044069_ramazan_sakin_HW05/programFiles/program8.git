@@ -1,0 +1,27 @@
+//  Ramazan Sakin -- 111044069
+ //  Computer Engineering  -- 2.Class
+  //  Gebze Institue of Technology
+   //  The program calculates sum of all numbers
+    //  until user defined number
+
+var GYTE = 1
+
+var multipler = 2 * GYTE + log 34.63 - tan ( 2 * ( ++ GYTE ) * 5 / 2 )
+
+print multipler
+
+var sum = 0
+var forNumber
+// enter loop number for calculating sum of all numbers until it
+input forNumber
+
+loop forNumber
+begin
+	sum = sum + forNumber
+ 	-- forNumber
+end
+
+// The result is sum
+print sum
+
+			//  END_OF_THE_PROGRAM

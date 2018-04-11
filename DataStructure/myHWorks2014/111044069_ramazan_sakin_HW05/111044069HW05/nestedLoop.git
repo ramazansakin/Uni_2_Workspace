@@ -1,0 +1,26 @@
+// Ramazan Sakin - 111044069
+
+var fact
+var k
+fact = 1
+k = 5
+var s = 4
+var sum = 0
+
+loop k
+begin
+	fact = fact * k
+	print fact
+	
+	loop s
+	begin 
+		print 10 * k
+	end
+	
+	print k
+	sum = sum + k
+	k = k - 1
+end
+
+// sum of all k
+print print print sum

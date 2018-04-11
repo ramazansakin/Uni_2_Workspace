@@ -1,0 +1,19 @@
+//  Ramazan Sakin -- 111044069
+//  Computer Engineering  -- 2.Class
+//  Gebze Institue of Technology
+
+var GYTE = 1
+
+var multipler = 2 * GYTE
+print multipler
+
+var sum = 0
+var loopNumber
+
+input loopNumber
+
+loop loopNumber
+begin
+	sum = sum + loopNumber
+ 	-- loopNumber
+ 	

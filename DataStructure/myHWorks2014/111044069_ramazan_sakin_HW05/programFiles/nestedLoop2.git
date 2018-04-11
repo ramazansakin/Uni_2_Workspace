@@ -1,0 +1,48 @@
+// Ramazan Sakin -- 111044069
+// GIT
+	//  Ic ice 3 looplu example and 2 li :)
+
+var numberOfStar
+// initializing the variables
+var shape = 0
+var temp = 1
+
+input numberOfStar
+
+var d = 3
+
+// prints the shape in nested loop
+// increasing shape
+// prints command prints only not adds to end of str newline char
+// but print adds end of values newline char
+
+loop numberOfStar
+begin
+	loop temp
+	begin
+		prints shape
+	end
+	print 0
+	++ temp
+end
+
+// temp was increased more one so I decrease it one time before the loop
+-- temp
+
+loop numberOfStar
+begin
+	loop temp
+	begin
+		prints shape
+		loop d
+		begin
+			prints 9
+		end
+	end
+	print 0
+	-- temp
+end
+
+		// END_OF_PROGRAM
+		
+		

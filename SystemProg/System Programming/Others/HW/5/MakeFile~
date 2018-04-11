@@ -1,0 +1,4 @@
+all:
+	gcc -c localSyncTh.c
+	gcc -o localSyncTh localSyncTh.o
+	rm localSyncTh.o

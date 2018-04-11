@@ -1,0 +1,225 @@
+// GITL test program - hash map performance
+// testhash.gitl
+
+int test_random_vars int p
+
+int var_28
+int var_16
+int var_17
+int var_08
+int var_03
+int var_37
+int var_35
+int var_29
+int var_41
+int var_49
+int var_04
+int var_27
+int var_50
+int var_48
+int var_31
+int var_06
+int var_26
+int var_18
+int var_32
+int var_07
+int var_14
+int var_39
+int var_21
+int var_23
+int var_19
+int var_22
+int var_11
+int var_40
+int var_24
+int var_05
+int var_38
+int var_09
+int var_44
+int var_12
+int var_33
+int var_30
+int var_15
+int var_20
+int var_01
+int var_47
+int var_34
+int var_02
+int var_36
+int var_46
+int var_25
+int var_10
+int var_43
+int var_45
+int var_42
+int var_13
+
+var_01 = 3
+var_02 = 5
+var_03 = 7
+end
+
+int test_ordered_vars1 int p
+
+int var_01
+int var_02
+int var_03
+int var_04
+int var_05
+int var_06
+int var_07
+int var_08
+int var_09
+int var_10
+int var_11
+int var_12
+int var_13
+int var_14
+int var_15
+int var_16
+int var_17
+int var_18
+int var_19
+int var_20
+int var_21
+int var_22
+int var_23
+int var_24
+int var_25
+int var_26
+int var_27
+int var_28
+int var_29
+int var_30
+int var_31
+int var_32
+int var_33
+int var_34
+int var_35
+int var_36
+int var_37
+int var_38
+int var_39
+int var_40
+int var_41
+int var_42
+int var_43
+int var_44
+int var_45
+int var_46
+int var_47
+int var_48
+int var_49
+int var_50
+
+var_01 = 3
+var_02 = 5
+var_03 = 7
+
+end
+
+int test_ordered_vars2 int p
+
+int var_01
+int var_02
+int var_03
+int var_04
+int var_05
+int var_06
+int var_07
+int var_08
+int var_09
+int var_10
+int var_11
+int var_12
+int var_13
+int var_14
+int var_15
+int var_16
+int var_17
+int var_18
+int var_19
+int var_20
+int var_21
+int var_22
+int var_23
+int var_24
+int var_25
+int var_26
+int var_27
+int var_28
+int var_29
+int var_30
+int var_31
+int var_32
+int var_33
+int var_34
+int var_35
+int var_36
+int var_37
+int var_38
+int var_39
+int var_40
+int var_41
+int var_42
+int var_43
+int var_44
+int var_45
+int var_46
+int var_47
+int var_48
+int var_49
+int var_50
+
+var_48 = 3
+var_49 = 5
+var_50 = 7
+
+end
+
+int main int p
+
+int result
+
+int loop2
+int t1
+
+int bigLoopCount
+bigLoopCount = 100
+
+label bigLoop
+
+call time 1 t1
+loop2 = 250
+label loop2_1
+call test_random_vars 4 result
+loop2 = loop2 - 1
+if loop2 loop2_1
+call time 1 t1
+call print t1 result
+
+call time 1 t1
+loop2 = 250
+label loop2_2
+call test_ordered_vars1 4 result
+loop2 = loop2 - 1
+if loop2 loop2_2
+call time 1 t1
+call print t1 result
+
+call time 1 t1
+loop2 = 250
+label loop2_3
+call test_ordered_vars2 4 result
+loop2 = loop2 - 1
+if loop2 loop2_3
+call time 1 t1
+call print t1 result
+
+call print 9999999 result
+
+bigLoopCount = bigLoopCount - 1
+if bigLoopCount bigLoop
+
+
+end

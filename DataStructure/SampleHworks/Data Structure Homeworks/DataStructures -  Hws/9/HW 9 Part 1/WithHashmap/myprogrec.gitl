@@ -1,0 +1,44 @@
+// GITL program for recursive factorial calculation
+// recursfact.GITL
+
+// recursive factorial function
+int factorial int n
+
+    // base case
+    if n lab1
+    return 1
+
+    // divide and conquer
+    label lab1
+
+    int res
+    int t
+    t = n - 1
+    // recursive step
+    call factorial t res
+    res = n * res
+    return res
+end
+
+int main int a
+    // define input var
+    int input
+
+    // Scan the input from user
+    // we assume user enters a positive
+    call scan 0 input
+
+    // result will hold the factorial va
+
+    int result
+
+    // call factorial
+    call factorial input result
+
+    // The factorial is calculated, prin
+    int dummy
+    call print result dummy
+
+    // return no errors
+    return 0
+end

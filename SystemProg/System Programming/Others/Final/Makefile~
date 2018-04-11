@@ -1,0 +1,9 @@
+all:
+	/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
+	/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2
+	gcc -c sunucu.c
+	gcc -c istemci.c
+	gcc -o sunucu sunucu.o -lpthread
+	gcc -o istemci istemci.o -lpthread
+	rm sunucu.o
+	rm istemci.o

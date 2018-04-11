@@ -1,0 +1,16 @@
+// variables
+var result
+var operation
+// result and operation 
+var a
+a = 3.0 * 2.0 + 4.0
+var b
+b = ( 2.0 * 3.5 ) / 2.0 - 1.0
+
+operation = 2.3 + 4.6 * ( sin 60 - cos b )
+print operation
+
+result = ( log ( sin a + exp b ) / operation )
+
+// print two times
+print print result

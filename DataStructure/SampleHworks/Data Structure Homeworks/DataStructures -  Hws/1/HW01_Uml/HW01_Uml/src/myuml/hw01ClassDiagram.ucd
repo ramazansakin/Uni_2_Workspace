@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="hw01ClassDiagram" id="{UMLID=_GcSKcCY0Ed-QiO6aU5e8Fw,JavaID=myuml}" metadata="uml2-1.0" initialized="true" scrolledY="-38" tag="10" key="323030373036323920485730315F556D6C">
+  <children xsi:type="editmodel:ClassEditModel" name="CalendarApp" location="473,294" size="123,180" stereotype="" description="UML" id="{UMLID=_LzdDcCY0Ed-QiO6aU5e8Fw}" runTimeClassModel="DayGrid,DayTitle,NoteStore,WindowTitle,main(),MainWindow">
+    <children xsi:type="editmodel:CompartmentEditModel" size="97,115">
+      <children xsi:type="editmodel:AttributeEditModel" name="DayTitle" size="73,21" id="{UMLID=_5BcrESY1Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="DayGrid" size="74,21" id="{UMLID=_BYi44SY2Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="NoteStore" size="83,21" id="{UMLID=_glKToSY7Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="MainWindow" size="97,21" id="{UMLID=_aumQQSY4Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="WindowTitle" size="94,21" id="{UMLID=_mosyISY1Ed-QiO6aU5e8Fw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="62,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" location="466,354" size="62,16" description="UML" id="{UMLID=_fUVCECY0Ed-QiO6aU5e8Fw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" id="{UMLID=_aumQQCY4Ed-QiO6aU5e8Fw}" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" label="//@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="CalendarApp" location="0,104" id="{UMLID=_aumQRCY4Ed-QiO6aU5e8Fw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.0/@children.0" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="460,405" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="MainWindow" location="48,142" id="{UMLID=_aumQQSY4Ed-QiO6aU5e8Fw}" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" aggregationKind="Composition" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="181,275" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- MainWindow" location="98,275" size="69,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_glKToCY7Ed-QiO6aU5e8Fw}" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.1/@children.1" label="//@children.0/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="CalendarApp" location="123,107" id="{UMLID=_glKTpCY7Ed-QiO6aU5e8Fw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.1/@children.0/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="603,380" size="18,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="NoteStore" location="0,59" id="{UMLID=_glKToSY7Ed-QiO6aU5e8Fw}" multiplicityLabel="//@children.0/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.1/@children.1/@children.1" aggregationKind="Composition" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="759,408" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- NoteStore" location="722,380" size="55,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" id="{UMLID=_5BcrECY1Ed-QiO6aU5e8Fw}" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.2/@children.1" label="//@children.0/@sourceConnections.2/@children.2" sourceEnd="//@children.0/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="CalendarApp" location="0,56" id="{UMLID=_5BcrFCY1Ed-QiO6aU5e8Fw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.2/@children.0/@children.0" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="460,357" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="DayTitle" location="67,83" id="{UMLID=_5BcrESY1Ed-QiO6aU5e8Fw}" multiplicityLabel="//@children.0/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.2/@children.1/@children.1" aggregationKind="Composition" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="382,216" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- DayTitle" location="323,216" size="45,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <bendpoints secondRelativeDimension="143,174" firstRelativeDimension="-98,-1"/>
+      <bendpoints secondRelativeDimension="144,1" firstRelativeDimension="-97,-174"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" id="{UMLID=_mosyICY1Ed-QiO6aU5e8Fw}" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.3/@children.1" label="//@children.0/@sourceConnections.3/@children.2" sourceEnd="//@children.0/@sourceConnections.3/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="CalendarApp" location="51,0" id="{UMLID=_mosyJCY1Ed-QiO6aU5e8Fw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.3/@children.0/@children.0" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="511,273" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="WindowTitle" location="114,156" id="{UMLID=_mosyISY1Ed-QiO6aU5e8Fw}" multiplicityLabel="//@children.0/@sourceConnections.3/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.3/@children.1/@children.1" aggregationKind="Composition" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="566,261" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- WindowTitle" location="586,261" size="66,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <bendpoints secondRelativeDimension="138,281" firstRelativeDimension="-428,0"/>
+      <bendpoints secondRelativeDimension="138,0" firstRelativeDimension="-428,-281"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" id="{UMLID=_BYi44CY2Ed-QiO6aU5e8Fw}" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.4/@children.1" label="//@children.0/@sourceConnections.4/@children.2" sourceEnd="//@children.0/@sourceConnections.4/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="CalendarApp" location="123,32" id="{UMLID=_BYi45CY2Ed-QiO6aU5e8Fw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.4/@children.0/@children.0" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="603,333" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="DayGrid" location="0,240" id="{UMLID=_BYi44SY2Ed-QiO6aU5e8Fw}" multiplicityLabel="//@children.0/@sourceConnections.4/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.4/@children.1/@children.1" aggregationKind="Composition" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="757,247" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- DayGrid" location="777,275" size="46,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="MainWindow" location="126,126" size="177,142" stereotype="" description="UML" id="{UMLID=_lTbdwCY0Ed-QiO6aU5e8Fw}" runTimeClassModel="MouseClickEvent(),PaintEvent(),Drawable,AddDrawablesAndPaint(),MainWindow()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="Drawable" size="82,21" id="{UMLID=_hfn4ISY4Ed-QiO6aU5e8Fw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="156,72">
+      <children xsi:type="editmodel:MethodEditModel" name="PaintEvent" size="90,16" description="UML" id="{UMLID=_Z-hzUCY6Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="MouseClickEvent" size="121,16" description="UML" id="{UMLID=_YuERACY6Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AddDrawablesAndPaint" size="156,16" description="UML" id="{UMLID=_MgakMCZBEd-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="MainWindow" size="102,16" description="UML" id="{UMLID=_s6VOgCfFEd-IQoChUZkMsg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_hfn4ICY4Ed-QiO6aU5e8Fw}" source="//@children.1" target="//@children.5" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="MainWindow" location="167,0" id="{UMLID=_hfn4JCY4Ed-QiO6aU5e8Fw}" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.0/@children.0" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="280,105" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="Drawable" location="0,91" id="{UMLID=_hfn4ISY4Ed-QiO6aU5e8Fw}" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" aggregationKind="Aggregration" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="465,70" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- Drawable" location="415,42" size="54,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="77,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.3" name="WindowTitle" location="465,112" size="127,142" stereotype="" description="UML" id="{UMLID=_rew-oCY0Ed-QiO6aU5e8Fw}" runTimeClassModel="DayGrid,ChangeMonth(),MouseClick(),WindowTitle(),Paint()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="74,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="DayGrid" size="74,21" id="{UMLID=_BJh9wSY8Ed-QiO6aU5e8Fw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,72">
+      <children xsi:type="editmodel:MethodEditModel" name="ChangeMonth" size="106,16" description="UML" id="{UMLID=_dYZAECfEEd-IQoChUZkMsg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Paint" size="63,16" description="UML" id="{UMLID=_QVSdoCY5Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="MouseClick" location="564,211" size="94,16" description="UML" id="{UMLID=_fF39ECY5Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="WindowTitle" size="99,16" description="UML" id="{UMLID=_vvh6ACfFEd-IQoChUZkMsg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" autoLocated="true" id="{UMLID=_easO4CY1Ed-QiO6aU5e8Fw}" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,101"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_BJh9wCY8Ed-QiO6aU5e8Fw}" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.1/@children.1" label="//@children.2/@sourceConnections.1/@children.2" sourceEnd="//@children.2/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="WindowTitle" location="127,70" id="{UMLID=_BJh9xCY8Ed-QiO6aU5e8Fw}" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.1/@children.0/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="599,161" size="18,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="DayGrid" location="0,92" id="{UMLID=_BJh9wSY8Ed-QiO6aU5e8Fw}" multiplicityLabel="//@children.2/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.2/@sourceConnections.1/@children.1/@children.1" aggregationKind="Aggregration" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="745,189" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- DayGrid" location="717,161" size="46,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="60,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" literalSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2" name="DayTitle" location="308,126" size="119,83" stereotype="" description="UML" id="{UMLID=_vTJPMCY0Ed-QiO6aU5e8Fw}" runTimeClassModel="DayTitle(),Paint()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Paint" size="63,16" description="UML" id="{UMLID=_RwyLQCY5Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DayTitle" size="78,16" description="UML" id="{UMLID=_uciBECfFEd-IQoChUZkMsg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" id="{UMLID=_fC6sgCY1Ed-QiO6aU5e8Fw}" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,6" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="44,97"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.4 //@children.2/@sourceConnections.1" name="DayGrid" location="770,90" size="149,178" stereotype="" description="UML" id="{UMLID=_8HJtMCY0Ed-QiO6aU5e8Fw}" runTimeClassModel="Update(),OpenNoteWindow(),DayGrid(),MouseClick(),NoteStore,NoteEntry(),Paint()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="83,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="NoteStore" size="83,21" id="{UMLID=_kiLi0CY7Ed-QiO6aU5e8Fw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,108">
+      <children xsi:type="editmodel:MethodEditModel" name="MouseClick" size="94,16" description="UML" id="{UMLID=_hfECACY5Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Paint" size="63,16" description="UML" id="{UMLID=_Sz1jsCY5Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Update" size="74,16" description="UML" id="{UMLID=_-nmykCZGEd-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="OpenNoteWindow" size="128,16" description="UML" id="{UMLID=_va9xgCfAEd-54NntuD25Uw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NoteEntry" size="87,16" description="UML" id="{UMLID=_vNwxECfCEd-IQoChUZkMsg}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DayGrid" size="79,16" description="UML" id="{UMLID=_wzxlQCfFEd-IQoChUZkMsg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" autoLocated="true" id="{UMLID=_fjaKcCY1Ed-QiO6aU5e8Fw}" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,51" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,80"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" size="2,1" description="Association" autoLocated="true" id="{UMLID=_kiBx0CY7Ed-QiO6aU5e8Fw}" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.1/@children.1" label="//@children.4/@sourceConnections.1/@children.2" sourceEnd="//@children.4/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="DayGrid" location="70,178" id="{UMLID=_kiLi0yY7Ed-QiO6aU5e8Fw}" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.1/@children.0/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="847,275" size="18,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="NoteStore" location="56,0" id="{UMLID=_kiLi0CY7Ed-QiO6aU5e8Fw}" multiplicityLabel="//@children.4/@sourceConnections.1/@children.1/@children.0" roleLabel="//@children.4/@sourceConnections.1/@children.1/@children.1" aggregationKind="Aggregration" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="815,321" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- NoteStore" location="847,321" size="55,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.4/@sourceConnections.0 //@children.3/@sourceConnections.0 //@children.1/@sourceConnections.0" name="Drawable" location="476,-28" size="118,101" stereotype="" description="UML" id="{UMLID=_Z1IZACY1Ed-QiO6aU5e8Fw}" runTimeClassModel="Drawable(),MouseClick(),Paint()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Paint" size="63,16" description="UML" id="{UMLID=_I33CwCY5Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="MouseClick" size="94,16" description="UML" id="{UMLID=_dFR-UCY5Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Drawable" size="87,16" description="UML" id="{UMLID=_083hkCfFEd-IQoChUZkMsg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.4/@sourceConnections.1" name="NoteStore" location="784,342" size="113,119" stereotype="" description="UML" id="{UMLID=_QDeC8CY7Ed-QiO6aU5e8Fw}" runTimeClassModel="LoadNotes(),NoteStore(),AddNote(),GetNotes()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,72">
+      <children xsi:type="editmodel:MethodEditModel" name="AddNote" size="82,16" description="UML" id="{UMLID=_dAujkCY7Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetNotes" size="85,16" description="UML" id="{UMLID=_euiwQCY7Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LoadNotes" size="92,16" description="UML" id="{UMLID=_E5Uz0CY9Ed-QiO6aU5e8Fw}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NoteStore" size="88,16" description="UML" id="{UMLID=_z7mR0CfFEd-IQoChUZkMsg}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="630,-28" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>
